@@ -32,6 +32,12 @@ Each dir should have `main.go` as `package main`.
 Place your common package for sharing among multiple functions.
 In this sample, `utils/utils.go` provides `utils.IntroductionYourself` for `hello`, `goodbye` endpoints.
 
+#### Ensure your environment (prod) provides an environment variable: `GO_IMPORT_PATH`
+
+```
+GO_IMPORT_PATH="github.com/[Account]/[Repository name]"
+```
+
 ### `dashboard`
 
 This dir will be deployed as a website. The root path for your Netlify app brings visitors here.
