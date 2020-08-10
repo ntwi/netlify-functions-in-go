@@ -53,6 +53,10 @@ Try to build packages and saves Go binaries into `functions` dir.
 $ make test
 ```
 
+## Behind this template
+
+[Multiple Endpoints in Go on Netlify Functions | by Kengo Hamasaki / hmsk | Hai-iro | Medium](https://medium.com/haiiro-io/multiple-endpoints-in-go-on-netlify-functions-db782c459529)
+
 ## License
 
 [MIT License](LICENSE) Copyright (c) 2020 Kengo Hamasaki
